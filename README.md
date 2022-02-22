@@ -1,2 +1,2 @@
-# Git_Course
-Git_Course
+## mini-project
+#Mini-Project
