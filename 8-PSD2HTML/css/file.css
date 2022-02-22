@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+
+.container {
+  width: 1100px;
+  margin: 30px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+}
+.container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.container > hr {
+  background-color: #2727c16e;
+  height: 3px;
+  width: 140px;
+  margin: 0px auto;
+  border-color: transparent;
+  margin-bottom: 20px;
+}
+.container p {
+  margin: 30px auto;
+  text-align: center;
+}
+.container .cards {
+  width: 950px;
+
+  margin: 30px auto;
+  background-color: white;
+}
+.container .card {
+  margin: 30px auto;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 20% 45% 15% 20%;
+}
+.container .center-hor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .cards hr {
+  background-color: #eee;
+  height: 3px;
+  border-color: transparent;
+}
+.container .cards .card .details h4 {
+  padding: 5px 20px;
+  width: fit-content;
+  font-size: 17px;
+  color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.container .cards .card .details .freelancr {
+  background-color: #7fb13d;
+  font-weight: 200;
+}
+.container .cards .card .details .part-time {
+  background-color: #2980b9;
+  font-weight: 200;
+}
+.container .cards .card .details .full-time {
+  font-weight: 200;
+  background-color: #8e44ad;
+}
+.container .cards .card .details h3 {
+  padding: 10px 1px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.container .cards .card .details h6 {
+  font-size: 17px;
+  color: #888;
+}
+
+.container .cards .card .place {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.container .cards .card .place h3 {
+  color: rgba(0, 0, 0, 0.753);
+  font-size: 22px;
+  font-weight: 200;
+  padding-bottom: 3px;
+}
+.container .cards .card .place h3:last-of-type {
+  color: #bbb;
+  font-size: 18px;
+}
+
+.container .cards .card .price {
+  text-transform: capitalize;
+}
+.container .cards .card .price h3 {
+  padding-left: 15px;
+  padding-bottom: 5px;
+  font-size: 19px;
+}
+.container .cards .card .price h4 {
+  background-color: #2980b9;
+  padding: 5px 30px;
+  width: fit-content;
+  font-weight: 200;
+  font-size: 16px;
+  color: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+input {
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: #2980b9;
+  color: white;
+  display: block;
+  border-color: transparent;
+}
+input:hover {
+  cursor: pointer;
+}
+/*
+*
+*/

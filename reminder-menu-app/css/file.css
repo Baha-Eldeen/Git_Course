@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --blue-color: #1a82e9;
+  --orange-color: #ff9508;
+  --gray-color: #5e6167;
+  --red-color: #ed6249;
+  --green-color: #26b662;
+  --yallow-color: #ffc608;
+}
+.container {
+  margin: 20px auto;
+  width: 514px;
+  height: 625px;
+  background-color: #e3e2e8;
+  font-family: sans-serif;
+}
+.container > p {
+  width: fit-content;
+  color: var(--blue-color);
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 450px;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+.container p:hover {
+  cursor: pointer;
+}
+.container input[type="search"] {
+  width: 90%;
+  margin: 15px 5%;
+  height: 40px;
+  padding-left: 40px;
+  background-color: #f2eff6;
+  border-color: transparent;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+  border: 1px solid #ddd;
+}
+
+.container .cards {
+  width: 450px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.container .cards .card {
+  background-color: white;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.container .cards .card span {
+  padding-left: 100px;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: monospace;
+}
+.container .cards .card i {
+  background-color: var(--blue-color);
+  color: white;
+  padding: 12px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.container .cards .card .fa-calendar-alt {
+  background-color: var(--blue-color);
+}
+.container .cards .card .fa-clock {
+  background-color: var(--orange-color);
+}
+.container .cards .card .fa-box-open {
+  background-color: var(--gray-color);
+}
+.container .cards .card .fa-flag {
+  background-color: var(--red-color);
+}
+
+.container .cards .card h4 {
+  color: #777;
+  margin-left: 10px;
+}
+.my-list {
+  width: 450px;
+  margin: 20px auto;
+}
+.my-list h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: cursive;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.my-list .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.my-list .list .part-two,
+.my-list .list .part-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.my-list .list .part-one h5 {
+  display: block;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.my-list .one .fa-list-ul {
+  background-color: var(--green-color);
+}
+
+.my-list .two .fa-list-ul {
+  background-color: var(--yallow-color);
+}
+
+.my-list .list .part-one i:first-of-type {
+  font-size: small;
+  padding: 8px;
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.my-list .list .part-two i:last-of-type {
+  color: #aaa;
+}
+.my-list .list .part-two p {
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 15px;
+  color: #aaa;
+}

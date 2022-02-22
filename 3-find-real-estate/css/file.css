@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-color: #0eaaa6;
+}
+
+.container {
+  margin: 20px auto;
+  width: 1000px;
+  background-color: blue;
+}
+
+header {
+  padding: 15px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 160px 180px 80px 200px 200px 80px;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: monospace;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px 10px 10px 15px;
+}
+
+button {
+  background-color: var(--main-color);
+  color: white;
+}

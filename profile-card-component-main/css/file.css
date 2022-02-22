@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+ body {
+    width: 1440px;
+    background-color: hsl(185, 75%, 39%);
+    padding: 50px;
+    font-size: 21px;
+    background-image: 
+         url("https://firebasestorage.googleapis.com/v0/b/novel-reader-13adb.appspot.com/o/SVG%20file%2Fbg-pattern-top.svg?alt=media&token=e1607d5c-6b08-450a-8a30-d42ecf7b25d7") , url("https://firebasestorage.googleapis.com/v0/b/novel-reader-13adb.appspot.com/o/SVG%20file%2Fbg-pattern-bottom.svg?alt=media&token=6c79c158-3fb9-45c0-a7e2-a64a537915bd");
+    background-position: -75% 45%, 180% -60%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+a{
+    
+    display: block;
+  font-size: larger;
+  padding: 20px;
+  display: flex;
+  margin: 40px auto;
+    justify-content: center;
+  width: 450px;
+  color: wheat;
+}
+
+.main{
+    width: 450px;
+    height: 600px;
+    display: grid;
+    margin: 40px auto;
+    line-height: 1.5;
+    grid-template-rows: 1fr 2fr;
+    border-radius: 25px;
+    box-shadow: 0 0 120px -52px black;
+
+
+}
+
+.one{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/novel-reader-13adb.appspot.com/o/SVG%20file%2Fbg-pattern-card.svg?alt=media&token=45eabafa-2f94-4bae-a56f-82fb1e6a2623);  
+}
+
+.image{
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/novel-reader-13adb.appspot.com/o/SVG%20file%2Fimage-victor.jpg?alt=media&token=804ffa87-c3e7-4a5e-a496-244387a249e6);  
+    width: 150px;
+    height: 150px;
+    transform: translate(100%, -50%);
+    border-radius: 50%;
+    background-size: 100%;
+}
+
+.two{
+    background-color: hsl(0, 0%, 95%);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+h2{
+    display: flex;
+    justify-content: center
+}
+
+h2 span{
+    
+    margin-left: 25px;
+    opacity: 50%;
+}
+
+h5{
+        opacity: 50%;
+
+   display: flex;
+    justify-content: center 
+}
+
+
+.child{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: hsla(0, 0%, 100%, 0.6);
+    
+}
+
+
+.child div{
+    
+    display: grid;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+   text-align: center;
+}
+
+.child > div span{
+text-align: center;
+  display: inline;
+  color: black;
+  font-weight: bold;
+  font-size:medium;
+  margin-bottom: 8px;
+}

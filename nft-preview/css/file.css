@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Bai Jamjuree";
+}
+.Main {
+  width: 350px;
+  margin: 20px auto;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 25px;
+}
+.container {
+  margin: auto;
+  width: 310px;
+}
+
+.Main .image {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.Main .image img {
+  display: block;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  background-color: none;
+}
+.Main .image:hover .overlay {
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.65;
+  cursor: pointer;
+}
+.Main .image .overlay {
+  position: absolute;
+  top: 5%;
+  bottom: 0;
+  left: 5%;
+  right: 0;
+  height: 90%;
+  width: 90%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: transparent;
+}
+.Main .image .overlay img {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.Main .container > h4 {
+  margin-bottom: 10px;
+  color: hsl(0, 0%, 100%);
+}
+.Main .container p {
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.Main .container .detal {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.Main .container .detal h5:first-of-type {
+  display: flex;
+  color: hsl(178, 100%, 50%);
+  justify-self: center;
+}
+.Main .container .detal h5:first-of-type span {
+  padding-right: 10px;
+}
+.Main .container .detal h5:last-of-type {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+  justify-self: center;
+}
+.Main .container .detal h5:last-of-type span {
+  padding-right: 10px;
+}
+
+.Main .container hr {
+  border-color: hsl(215, 32%, 27%);
+}
+
+.Main .container .info {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.Main .container .info img {
+  width: 12.5%;
+  border: 2px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.Main .container .info h5 {
+  margin-left: 15px;
+}
+.Main .container .info span {
+  color: white;
+  cursor: pointer;
+}
